@@ -23,6 +23,7 @@ nav ul a{
 }
 .section-first-one{
     display: flex;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 70px;
 }
@@ -178,13 +179,27 @@ nav ul a{
 
 @media (max-width:500px){
     .section-first-one{
-        display: block;
+       
         flex-direction: column;
+        text-align: center;
     }
+   
+  #img1 {
+    order: 1;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .part-one {
+    order: 2;
+    width: 100%;
+    padding: 0 20px;
+  }
     .part-one input{
         display: block;
         width: 80%;
-        margin-left: 25px;
+        margin-left: 28px;
     }
     .part-one button{
         width: 81%;
@@ -193,9 +208,30 @@ nav ul a{
        
     }
    .section-second-one{
-    display: block;
+    
     flex-direction: column;
+    text-align: center;
    }
+   #img2 {
+    order: 1;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .very-final {
+    order: 2;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+
+
+
+
+
+
+
    .card{
     min-width: 80%;
    }
@@ -212,8 +248,8 @@ nav ul a{
         /* margin-top: 5px; */
    }
    #error{
-    width: 80%;
-    margin-right: 50px;
+    width: 70%;
+    margin-right: 85px;
    }
    .grey{
     margin-left: 20px;
@@ -242,6 +278,9 @@ nav ul a{
   }
   #new{
     flex-direction: column;
+  }
+  .first-nav-side{
+    margin-left: 80px;
   }
   
 }

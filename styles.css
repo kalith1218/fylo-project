@@ -1,0 +1,248 @@
+body{
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.nav-first{
+    display: flex;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    
+    /* justify-content: flex-end; */
+    /* justify-content: end; */
+}
+.first-nav-side{
+    margin-left: 65%;
+}
+nav ul a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.section-first-one{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#img1{
+    width: 50%;
+}
+.part-one{
+    padding: 40px;
+    margin-top: 30px;
+}
+.part-one h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.part-one p{
+     font-size:16px;
+}
+.part-one input{
+    width: 50%;
+    height: 30px;
+}
+.part-one button{
+    width: 35%;
+    height: 35px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 5px;
+}
+/* #curve{
+    margin-bottom: 0;
+} */
+.desktop-img {
+    display: block;
+  }
+  .mobile-img {
+    display: none;
+  }
+.section-second-one{
+    margin-top: 0;
+    background-color: hsl(240, 75%, 98%);
+    display: flex;
+    padding: 40px;
+}
+.section-second-one h2{
+    margin-top: 0;
+    font-size: 40px;
+}
+.section-second-one p{
+   font-size: 16px;
+    
+}
+#arrow{
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 1px solid  hsl(170, 45%, 43%);
+}
+.card{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.card1{
+    display: flex;
+   
+}
+#card-img{
+    border-radius: 100%;
+    width: 40px;
+    height: 30px;
+}
+.card2{
+    margin-left:15px;
+  
+}
+.card2 h4,.card2 p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-third-one{
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    
+}
+.section-third-one h3{
+    font-size: 30px;
+    color: white;
+}
+.section-third-one p{
+    font-size:16px;
+    color: white;
+}
+.grey{
+    width: 50%;
+    padding: 40px ;
+}
+.grey h3{
+    margin-top: 0;
+}
+.grey p{
+    font-size: 16px;
+}
+.blue{
+    width: 50%;
+    padding: 40px ;
+}
+.blue input{
+    width: 70%;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+}
+.blue button{
+    width: 30%;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    margin-top: 10px;
+}
+.last-section{
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    color: white;
+    padding-top: 80px;
+}
+#f-logo{
+    display: block;
+}
+.final-flex{
+    display: flex;
+    margin-top: 20px;
+
+}
+.final-flex p{
+    margin: 0;
+    margin-left: 15px;
+}
+.last-response-one i{
+    margin-left: 5px;
+}
+.last-response p:hover,
+.last-response p:focus{
+    color:  hsl(224, 93%, 58%);
+}
+.last-response-one i:hover,
+.last-response-one i:focus{
+    color:  hsl(224, 93%, 58%);
+}
+
+
+@media (max-width:500px){
+    .section-first-one{
+        display: block;
+        flex-direction: column;
+    }
+    .part-one input{
+        display: block;
+        width: 80%;
+        margin-left: 25px;
+    }
+    .part-one button{
+        width: 81%;
+        justify-content: start;
+        margin-top: 5px;
+       
+    }
+   .section-second-one{
+    display: block;
+    flex-direction: column;
+   }
+   .card{
+    min-width: 80%;
+   }
+   .section-third-one{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+   }
+   /* .blue input{
+        width: 100%;
+   } */
+   .blue {
+        width: 80%;
+        /* margin-top: 5px; */
+   }
+   #error{
+    width: 80%;
+    margin-right: 50px;
+   }
+   .grey{
+    margin-left: 20px;
+   }
+   .last-section{
+    display: block;
+    flex-direction: column;
+    height: fit-content;
+    padding: 35px;
+   }
+   .last-response{
+   margin-right:400px;
+   margin-top: 50px;
+   
+  
+   }
+   body{
+    min-width: 434px;
+    text-align: center;
+   }
+   .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+  }
+  #new{
+    flex-direction: column;
+  }
+  
+}
+
